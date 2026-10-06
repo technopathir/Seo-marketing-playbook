@@ -1,0 +1,180 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="purple" x1="0" y1="0" x2="1200" y2="0">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        fill: #ffffff;
+      }
+
+      .sub {
+        font-family: Arial, Helvetica, sans-serif;
+        fill: #a1a1aa;
+      }
+
+      .line {
+        stroke: url(#purple);
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-dasharray: 10 12;
+        animation: flow 2s linear infinite;
+      }
+
+      .node {
+        fill: #0f071a;
+        stroke: #7c3aed;
+        stroke-width: 2;
+      }
+
+      .pulse {
+        fill: #a855f7;
+        filter: url(#glow);
+        animation: pulse 1.8s ease-in-out infinite;
+      }
+
+      .n1 { animation-delay: 0s; }
+      .n2 { animation-delay: .35s; }
+      .n3 { animation-delay: .7s; }
+      .n4 { animation-delay: 1.05s; }
+      .n5 { animation-delay: 1.4s; }
+
+      @keyframes flow {
+        to {
+          stroke-dashoffset: -44;
+        }
+      }
+
+      @keyframes pulse {
+        0%,100% {
+          opacity: .35;
+          r: 5;
+        }
+        50% {
+          opacity: 1;
+          r: 9;
+        }
+      }
+
+      .fade {
+        animation: fade 2.5s ease-in-out infinite;
+      }
+
+      @keyframes fade {
+        0%,100% { opacity: .55; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" rx="24" fill="#08060D"/>
+
+  <!-- Header -->
+  <text x="600" y="58"
+        text-anchor="middle"
+        class="title"
+        font-size="30">
+    FROM SEARCH TO GROWTH
+  </text>
+
+  <text x="600" y="88"
+        text-anchor="middle"
+        class="sub"
+        font-size="15">
+    How SEO turns attention into growth
+  </text>
+
+  <!-- Connecting lines -->
+  <line x1="180" y1="215" x2="370" y2="215" class="line"/>
+  <line x1="420" y1="215" x2="610" y2="215" class="line"/>
+  <line x1="660" y1="215" x2="850" y2="215" class="line"/>
+  <line x1="900" y1="215" x2="1080" y2="215" class="line"/>
+
+  <!-- Nodes -->
+  <g>
+    <circle cx="155" cy="215" r="48" class="node"/>
+    <circle cx="155" cy="215" r="6" class="pulse n1"/>
+    <text x="155" y="210" text-anchor="middle" class="title" font-size="16">
+      SEARCH
+    </text>
+    <text x="155" y="233" text-anchor="middle" class="sub" font-size="12">
+      Discover
+    </text>
+  </g>
+
+  <g>
+    <circle cx="395" cy="215" r="48" class="node"/>
+    <circle cx="395" cy="215" r="6" class="pulse n2"/>
+    <text x="395" y="210" text-anchor="middle" class="title" font-size="16">
+      INTENT
+    </text>
+    <text x="395" y="233" text-anchor="middle" class="sub" font-size="12">
+      Understand
+    </text>
+  </g>
+
+  <g>
+    <circle cx="635" cy="215" r="48" class="node"/>
+    <circle cx="635" cy="215" r="6" class="pulse n3"/>
+    <text x="635" y="210" text-anchor="middle" class="title" font-size="16">
+      VALUE
+    </text>
+    <text x="635" y="233" text-anchor="middle" class="sub" font-size="12">
+      Create
+    </text>
+  </g>
+
+  <g>
+    <circle cx="875" cy="215" r="48" class="node"/>
+    <circle cx="875" cy="215" r="6" class="pulse n4"/>
+    <text x="875" y="210" text-anchor="middle" class="title" font-size="16">
+      TRUST
+    </text>
+    <text x="875" y="233" text-anchor="middle" class="sub" font-size="12">
+      Connect
+    </text>
+  </g>
+
+  <g>
+    <circle cx="1105" cy="215" r="48" class="node"/>
+    <circle cx="1105" cy="215" r="6" class="pulse n5"/>
+    <text x="1105" y="210" text-anchor="middle" class="title" font-size="16">
+      GROWTH
+    </text>
+    <text x="1105" y="233" text-anchor="middle" class="sub" font-size="12">
+      Impact
+    </text>
+  </g>
+
+  <!-- Bottom statement -->
+  <text x="600" y="350"
+        text-anchor="middle"
+        class="title fade"
+        font-size="18">
+    Good SEO gets you discovered.
+  </text>
+
+  <text x="600" y="378"
+        text-anchor="middle"
+        class="sub fade"
+        font-size="14">
+    Great marketing gives people a reason to stay.
+  </text>
+
+</svg>
