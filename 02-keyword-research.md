@@ -1,13 +1,4 @@
-
-\<div align="center">
-
-# 🔑 KEYWORD RESEARCH
-
-### Discover • Analyze • Prioritize • Map
-
-**A practical framework for finding the right keywords and turning search demand into content opportunities.**
-```html
-
+```markdown
 <div align="center">
 
 # 🔑 KEYWORD RESEARCH
@@ -23,7 +14,7 @@
 </div>
 
 <br>
-<br>
+
 ---
 
 # 🔎 What Is Keyword Research?
@@ -159,7 +150,7 @@ technopath
 youtube
 ```
 
-Typical result:
+Typical results:
 
 - Homepage
 - Brand page
@@ -216,12 +207,12 @@ Typical content:
 
 # 🧩 The Four Main Intent Types
 
-| Intent        | User Goal | Example                 |
-| ------------- | --------- | ----------------------- |
-| Informational | Learn     | `what is seo`           |
-| Navigational  | Find      | `google search console` |
-| Commercial    | Compare   | `best seo tools`        |
-| Transactional | Act       | `buy seo course`        |
+| Intent | User Goal | Example |
+|---|---|---|
+| Informational | Learn | `what is seo` |
+| Navigational | Find | `google search console` |
+| Commercial | Compare | `best seo tools` |
+| Transactional | Act | `buy seo course` |
 
 Understanding this distinction makes keyword targeting much more effective.
 
@@ -291,12 +282,12 @@ python
 linux
 ```
 
-Advantages:
+### Advantages
 
 - Large potential audience
 - Often high search volume
 
-Disadvantages:
+### Disadvantages
 
 - Very broad intent
 - Usually competitive
@@ -316,7 +307,7 @@ how to learn networking for beginners
 best linux distro for programming
 ```
 
-Advantages:
+### Advantages
 
 - More specific intent
 - Often easier to target
@@ -453,7 +444,6 @@ Common tools include:
 - Ahrefs
 - Semrush
 - Ubersuggest
-- Keyword Planner alternatives
 - SEO browser extensions
 
 No single tool should be treated as absolute truth.
@@ -605,12 +595,12 @@ Keyword mapping means assigning keywords to specific pages.
 
 Example:
 
-| Page             | Primary Keyword  | Supporting Keywords               |
-| ---------------- | ---------------- | --------------------------------- |
-| SEO Guide        | seo basics       | what is seo, seo fundamentals     |
-| Keyword Research | keyword research | keyword analysis, keyword tools   |
-| Technical SEO    | technical seo    | crawlability, indexing            |
-| Link Building    | link building    | backlinks, link building strategy |
+| Page | Primary Keyword | Supporting Keywords |
+|---|---|---|
+| SEO Guide | seo basics | what is seo, seo fundamentals |
+| Keyword Research | keyword research | keyword analysis, keyword tools |
+| Technical SEO | technical seo | crawlability, indexing |
+| Link Building | link building | backlinks, link building strategy |
 
 This prevents multiple pages from targeting the exact same intent unnecessarily.
 
@@ -694,13 +684,13 @@ Make it:
 
 A simple keyword research spreadsheet can look like this:
 
-| Keyword           | Intent        | Volume | Difficulty | Relevance | Priority |
-| ----------------- | ------------- | -----: | ---------: | --------: | -------: |
-| seo               | Informational |   High |       High |      High |   Medium |
-| what is seo       | Informational |   High |     Medium |      High |     High |
-| seo for beginners | Informational | Medium |     Medium |      High |     High |
-| best seo tools    | Commercial    | Medium |       High |      High |   Medium |
-| seo audit service | Transactional |    Low |     Medium |      High |     High |
+| Keyword | Intent | Volume | Difficulty | Relevance | Priority |
+|---|---|---:|---:|---:|---:|
+| seo | Informational | High | High | High | Medium |
+| what is seo | Informational | High | Medium | High | High |
+| seo for beginners | Informational | Medium | Medium | High | High |
+| best seo tools | Commercial | Medium | High | High | Medium |
+| seo audit service | Transactional | Low | Medium | High | High |
 
 The exact numbers will depend on the SEO tool and market being analyzed.
 
@@ -1024,9 +1014,9 @@ The objective is not simply to rank for more keywords.
 
 The objective is to rank for the **right searches**.
 
-> Find what people need.
-> Understand why they search.
-> Build the right content.
+> Find what people need.  
+> Understand why they search.  
+> Build the right content.  
 > Create value before chasing rankings.
 
 ---
@@ -1045,10 +1035,11 @@ Where keyword research becomes a structured content strategy.
 
 ---
 
-\<div align="center">
+<div align="center">
 
 ### SEARCH • UNDERSTAND • PRIORITIZE • CREATE
 
 **Keyword research turns search behavior into SEO opportunities.**
 
-\</div>
+</div>
+```
