@@ -6,16 +6,18 @@
 ### Discover • Analyze • Prioritize • Map
 
 **A practical framework for finding the right keywords and turning search demand into content opportunities.**
+```html
 
-\<br>
+<br>
 
-\<img src="[https://img.shields.io/badge/SEO-Keyword%20Research-8B5CF6?style=for-the-badge](https://img.shields.io/badge/SEO-Keyword%20Research-8B5CF6?style=for-the-badge)" alt="SEO Keyword Research">
+<img src="https://img.shields.io/badge/SEO-Keyword%20Research-8B5CF6?style=for-the-badge" alt="SEO Keyword Research">
 
-\<img src="[https://img.shields.io/badge/Strategy-Search%20Intent-A855F7?style=for-the-badge](https://img.shields.io/badge/Strategy-Search%20Intent-A855F7?style=for-the-badge)" alt="Search Intent">
+<img src="https://img.shields.io/badge/Strategy-Search%20Intent-A855F7?style=for-the-badge" alt="Search Intent">
 
-\</div>
+</div>
 
-\<br>
+<br>
+```
 
 ---
 
