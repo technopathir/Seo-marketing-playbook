@@ -18,8 +18,11 @@
 
 <br>
 
+![SEO Keyword Research](https://img.shields.io/badge/SEO-Keyword%20Research-8B5CF6?style=for-the-badge)
+
 </div>
 
+<br>
 <br>
 ---
 
